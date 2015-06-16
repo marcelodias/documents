@@ -1,0 +1,10 @@
+
+ Para que os templates possam funcionar, os Data Sources precisam ser editados colocando a porta SNMP do SQUID,
+ COMMUNITY e IP (é mandatório colocar o IP)
+
+/etc/squid/squid.conf
+acl squidSNMP snmp_community squidSNMP
+snmp_port 3401
+snmp_access allow squidSNMP 7andar
+snmp_access deny all
+

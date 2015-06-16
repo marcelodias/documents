@@ -1,0 +1,29 @@
+Installation instruction: 
+
+Make sure you have enabled Statistic Collector in Postgres (postgresql.conf) 
+Padrao no > 8.4
+
+1. Create new User in PostgreSQL ,for example monitor (you don't have to grant any special roles to this users AFAIK,
+any user has access to Statistic Tables). *configurar a senha monitor 
+2. Try to connect remotely under this user to postgres Database: 
+psql -h YOUR_POSTGRES_HOST -U monitor -W postgres 
+and try execute following SQL: 
+select * from pg_stat_all_tables; 
+If everything work proceed with installation otherwise fix your problem till you get results. 
+
+3. Cacti Import 
+pgsql_stats.php - the Script, put this in <cacti_root>/scripts/ 
+postgres_dbstat.xml - the Definition, put this in <cacti_root>/resource/script_queries 
+cacti_data_query_postgresql_database_stats.xml - Data Query + Graphs - import into Cacti 
+
+4. Edit pgsql_stats.php line 173 and 174 and put username and password you have created at point 1. (I don't know how to
+pass username and password parameters to Data Queries. If you know how, let me know so I can remote username and
+password from script) 
+ 
+   Note: se a senha é monitor, não precisa mudar o script
+
+5. Edit your Host Template or Device and add PostgreSQL Database Stats in Data Queries. 
+
+6. Create your Graphs  
+
+Please let me know if you had any troubles or have any wishes 

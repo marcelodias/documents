@@ -1,0 +1,121 @@
+<interface>
+	<name>Get PostgreSQL Database Statistic</name>
+	<script_path>|path_php_binary| |path_cacti|/scripts/pgsql_stats.php</script_path>
+	<arg_prepend>|host_hostname|</arg_prepend>
+	<arg_index>index</arg_index>
+	<arg_query>query</arg_query>
+	<arg_get>get</arg_get>
+	<output_delimeter>:</output_delimeter>
+	<index_order>pg_DBName</index_order>
+	<index_order_type>alphabetic</index_order_type>
+	<index_title_format>|chosen_order_field|</index_title_format>
+
+	<fields>
+                <pg_DBName>
+                        <name>Database Name</name>
+                        <direction>input</direction>
+                        <query_name>dbname</query_name>
+                </pg_DBName>
+
+		<xact_commit>
+			<name>number of transactions committed</name>
+			<direction>output</direction>
+			<query_name>xact_commit</query_name>
+		</xact_commit>
+		<xact_rollback>
+			<name>number of transactions rolled back</name>
+			<direction>output</direction>
+			<query_name>xact_rollback</query_name>
+		</xact_rollback>
+		<blks_read>
+			<name>total disk blocks read</name>
+			<direction>output</direction>
+			<query_name>blks_read</query_name>
+		</blks_read>
+		<blks_hit>
+			<name>total buffer hits</name>
+			<direction>output</direction>
+			<query_name>blks_hit</query_name>
+		</blks_hit>
+		<seq_scan>
+			<name>number of sequential scans initiated</name>
+			<direction>output</direction>
+			<query_name>seq_scan</query_name>
+		</seq_scan>
+		<seq_tup_read>
+			<name>number of live rows fetched by sequential scans</name>
+			<direction>output</direction>
+			<query_name>seq_tup_read</query_name>
+		</seq_tup_read>
+		<idx_scan>
+			<name>number of index scans initiated</name>
+			<direction>output</direction>
+			<query_name>idx_scan</query_name>
+		</idx_scan>
+		<idx_tup_fetch>
+			<name>number of live rows fetched by index scans</name>
+			<direction>output</direction>
+			<query_name>idx_tup_fetch</query_name>
+		</idx_tup_fetch>
+		<n_tup_ins>
+			<name>numbers of row insertions</name>
+			<direction>output</direction>
+			<query_name>n_tup_ins</query_name>
+		</n_tup_ins>
+		<n_tup_upd>
+			<name>numbers of row updates</name>
+			<direction>output</direction>
+			<query_name>n_tup_upd</query_name>
+		</n_tup_upd>
+		<n_tup_del>
+			<name>numbers of row deletions</name>
+			<direction>output</direction>
+			<query_name>n_tup_del</query_name>
+		</n_tup_del>
+		<heap_blks_read>
+			<name>number of disk blocks read</name>
+			<direction>output</direction>
+			<query_name>heap_blks_read</query_name>
+		</heap_blks_read>
+		<heap_blks_hit>
+			<name>number of buffer hits</name>
+			<direction>output</direction>
+			<query_name>heap_blks_hit</query_name>
+		</heap_blks_hit>
+		<idx_blks_read>
+			<name>numbers of disk blocks read</name>
+			<direction>output</direction>
+			<query_name>idx_blks_read</query_name>
+		</idx_blks_read>
+		<idx_blks_hit>
+			<name>numbers of buffer hits in all indexes</name>
+			<direction>output</direction>
+			<query_name>idx_blks_hit</query_name>
+		</idx_blks_hit>
+		<toast_blks_read>
+			<name>numbers of disk blocks read from auxiliary TOAST table</name>
+			<direction>output</direction>
+			<query_name>toast_blks_read</query_name>
+		</toast_blks_read>
+		<toast_blks_hit>
+			<name>numbers of buffer hits from auxiliary TOAST table</name>
+			<direction>output</direction>
+			<query_name>toast_blks_hit</query_name>
+		</toast_blks_hit>
+		<tidx_blks_read>
+			<name>numbers of disk blocks read for the TOAST tables index</name>
+			<direction>output</direction>
+			<query_name>tidx_blks_read</query_name>
+		</tidx_blks_read>
+		<tidx_blks_hit>
+			<name>numbers of buffer hits for the TOAST tables index</name>
+			<direction>output</direction>
+			<query_name>tidx_blks_hit</query_name>
+		</tidx_blks_hit>
+		<db_size>
+			<name>Database size</name>
+			<direction>output</direction>
+			<query_name>db_size</query_name>
+		</db_size>
+	</fields>
+</interface>

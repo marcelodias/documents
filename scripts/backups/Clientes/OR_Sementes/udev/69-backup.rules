@@ -1,0 +1,2 @@
+#SUBSYSTEMS=="usb",DRIVERS=="usb",ATTRS{serial}=="533242574A35305A41383037",NAME="backup-externo%n",RUN+="/usr/bin/wall Disco conectado"
+ACTION=="add",KERNEL=="sd?1",SUBSYSTEMS=="usb",ATTRS{serial}=="533242574A35305A41383037",NAME="backup-externo%n",RUN+="/usr/bin/wall Disco conectado"

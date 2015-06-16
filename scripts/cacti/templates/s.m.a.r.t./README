@@ -1,0 +1,16 @@
+http://www.pitt-pladdy.com/blog/_20091031-144604_0000_SMART_stats_on_Cacti_via_SNMP_/
+
+/etc/snmp/scripts/snmpd.conf
+-----------------------
+extend smartdevices /etc/snmp/scripts/smart-generic devices
+extend smartreaderr /etc/snmp/scripts/smart-generic 1
+extend smartrealloc /etc/snmp/scripts/smart-generic 5
+extend smartseekerr /etc/snmp/scripts/smart-generic 7
+extend smartpwrhours /etc/snmp/scripts/smart-generic 9
+extend smarthighflywr /etc/snmp/scripts/smart-generic 189
+extend smartairflow /etc/snmp/scripts/smart-generic R190
+extend smarttemp /etc/snmp/scripts/smart-generic R194
+extend smarteccrec /etc/snmp/scripts/smart-generic 195
+
+# snmpwalk
+snmpwalk -v 2c -c community server NET-SNMP-EXTEND-MIB::nsExtendOutLine

@@ -1,0 +1,1 @@
+*/4 * * * root /etc/snmp/scripts/smartd-snmp_data.sh

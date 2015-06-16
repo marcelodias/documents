@@ -1,0 +1,4 @@
+## adicione essas linhas no /etc/crontab
+55 23 * * * root /etc/sarg/diario.sh
+55 23 * * 0 root /etc/sarg/semanal.sh
+55 23 30 * * root /etc/sarg/mensal.sh
