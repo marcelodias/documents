@@ -1,0 +1,17 @@
+#!/bin/bash
+      
+INICIO=`date +%d/%m/%Y-%H:%M:%S`
+LOG=/var/log/backup`date +%Y-%m-%d`_log_backup1_etc.txt
+       
+echo " " >> $LOG
+echo " " >> $LOG
+echo "|-----------------------------------------------" >> $LOG
+echo " Sincronização iniciada em $INICIO" >$LOG
+			       
+rsync -Crvzp /etc /backup_online/FW1B/backup1 >> $LOG
+FINAL=`date +%d/%m/%Y-%H:%M:%S`
+		                           
+echo " Sincronização Finalizada em $FINAL"  $LOG
+echo "|-----------------------------------------------" >> $LOG
+echo " " >> $LOG
+echo " " >> $LOG										   

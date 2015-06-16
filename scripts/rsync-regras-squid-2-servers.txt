@@ -1,0 +1,63 @@
+rsync - usando para sincronizar dados de regras de squid de um servidor ao outro
+
+Primeiramente precisamos instalar pacotes do rsync
+
+yum install rsync -y
+
+Definições
+Servidor 1 = tem todas as regras de squid 192.168.30.1
+Servidor 2 = Possui o mapeamento onde as regras estarão em um diretorio = 192.168.30.2
+
+Dessa forma, o usuário vai acessar um diretorio onde estão todas as regras em arquivos txt, o usuario irá editar os arquivos como desejar.
+
+Vamos configurar o squid dessa forma:
+
+# Regras de Bloqueios e Liberações
+acl ips_liberados src "/etc/squid/alcs/ips_liberados.txt"
+http_access allow ips_liberados
+
+acl sites_bloqueados urlpath_regex "/etc/squid/acls/sites_bloqueados.txt"
+http_access deny sites_bloqueados
+
+acl ips_bloqueados src "/etc/squid/acls/ips_bloqueados.txt"
+http_access deny ips_bloqueados
+
+acl palavras_bloqueadas urlpath_regex "/etc/squid/acls/palavras_bloqueadas.txt"
+http_access deny palavras_bloqueadas
+
+Depois adicionar uma pasta chamada acls dentro do /etc/squid e criar os arquivos acima
+
+ips_bloqueados.txt  
+ips_liberados.txt        
+sites_bloqueados.txt
+palavras_bloqueadas.txt
+
+Agora vamos definir acesso por chaves publicas e privadas, gerando assim dessa forma:
+
+ssh-keygen - vai gerar uma chave assimetrica, ira pedir o local onde será salvo e pedirá uma chave simetrica
+
+ssh-copy-id -i id_rsa.pub magnet@192.168.30.2 - esse comando ira fazer uma copia da chave publica no server rufus.
+
+ssh -l magnet 192.168.30.2 - vai tentar o contato com o server solicitando pelo user magnet.
+
+Agora vamos criar um script no Server 1 dessa forma:
+
+#!/bin/bash
+# Sincronizacao das regras do squid
+
+rsync -av -e ssh magnet@192.168.30.2:/arquivos/REGRAS/* /etc/squid/acls/
+
+Depois criar a regra para reconfigurar o squid, atualizar regras:
+
+#!/bin/bash
+# Reconfigurar squid
+
+squid -k reconfigure
+
+Pra finalizar, vamos colocar no crontab as regras para execução
+
+vim /etc/crontab
+
+*/20 * * * * magnet /home/magnet/scripts/sincronizar_regras
+*/30 * * * * root /root/scripts/reconfigura_squid
+

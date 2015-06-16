@@ -1,0 +1,5 @@
+cd g:\Taris\CALLCENTER1-RAMAL3380\
+c:\Arquivos de programas\7-Zip\7z.exe a -ttar JANEIRO.tar Janeiro
+c:\Arquivos de programas\7-Zip\7z.exe a -tgzip JANEIRO.tar.tgzip JANEIRO.tar
+rmdir /S /Q Janeiro.tar
+rmdir /S /Q Janeiro/

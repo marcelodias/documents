@@ -1,0 +1,51 @@
+Script iniciado em Seg 07 Mai 2012 13:40:14 BRT
+]0;mdias@mdias:~/Documents/Script[?1034h[mdias@mdias Script]$ df
+Sist. Arq.                    1K-blocos     Usad   Dispon. Uso% Montado em
+rootfs                         20453292  6469168  13779380  32% /
+devtmpfs                        1960068        0   1960068   0% /dev
+tmpfs                           1970872     1432   1969440   1% /dev/shm
+/dev/sda6                      20453292  6469168  13779380  32% /
+tmpfs                           1970872    50960   1919912   3% /run
+tmpfs                           1970872        0   1970872   0% /sys/fs/cgroup
+tmpfs                           1970872        0   1970872   0% /media
+/dev/sda7                     323211860 74362940 232669928  25% /home
+//192.168.138.1/instalacoes      256000    14816    241184   6% /mnt/DC/Instalacoes
+//192.168.138.1/usuarios         256000    14816    241184   6% /mnt/DC/Usuarios
+//192.168.138.1/compartilhado    256000    14816    241184   6% /mnt/DC/Compartilhado
+//192.168.138.1/manuais          256000    14816    241184   6% /mnt/DC/Manuais
+//192.168.138.1/sistemas         256000    14816    241184   6% /mnt/DC/Sistemas
+//192.168.138.1/dados            256000    14816    241184   6% /mnt/DC/Dados
+//192.168.138.1/temp             256000    14816    241184   6% /mnt/DC/Temp
+]0;mdias@mdias:~/Documents/Script[mdias@mdias Script]$ df -h
+Sist. Arq.                      Tam  Usad Dispon. Uso% Montado em
+rootfs                          20G  6,2G     14G  32% /
+devtmpfs                       1,9G     0    1,9G   0% /dev
+tmpfs                          1,9G  1,4M    1,9G   1% /dev/shm
+/dev/sda6                       20G  6,2G     14G  32% /
+tmpfs                          1,9G   50M    1,9G   3% /run
+tmpfs                          1,9G     0    1,9G   0% /sys/fs/cgroup
+tmpfs                          1,9G     0    1,9G   0% /media
+/dev/sda7                      309G   71G    222G  25% /home
+//192.168.138.1/instalacoes    250M   15M    236M   6% /mnt/DC/Instalacoes
+//192.168.138.1/usuarios       250M   15M    236M   6% /mnt/DC/Usuarios
+//192.168.138.1/compartilhado  250M   15M    236M   6% /mnt/DC/Compartilhado
+//192.168.138.1/manuais        250M   15M    236M   6% /mnt/DC/Manuais
+//192.168.138.1/sistemas       250M   15M    236M   6% /mnt/DC/Sistemas
+//192.168.138.1/dados          250M   15M    236M   6% /mnt/DC/Dados
+//192.168.138.1/temp           250M   15M    236M   6% /mnt/DC/Temp
+]0;mdias@mdias:~/Documents/Script[mdias@mdias Script]$ sudo yum update -y
+[sudo] password for mdias: 
+Plugins carregados: changelog, fastestmirror, langpacks, presto, refresh-
+                  : packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.umd.edu
+ * rpmfusion-free: mirror.hiwaay.net
+ * rpmfusion-free-updates: mirror.hiwaay.net
+ * rpmfusion-nonfree: mirror.hiwaay.net
+ * rpmfusion-nonfree-updates: mirror.hiwaay.net
+ * updates: mirror.umd.edu
+Nenhum pacote marcado para atualização
+]0;mdias@mdias:~/Documents/Script[mdias@mdias Script]$ exit
+exit
+
+Script concluído em Seg 07 Mai 2012 13:40:48 BRT

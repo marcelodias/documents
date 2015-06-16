@@ -1,0 +1,35 @@
+#!/bin/bash
+md5sum monitoramento_ABRIL_2009.dmp >> monitoramento_ABRIL_2009_hash.txt
+md5sum monitoramento_AGOSTO_2009.dmp >> monitoramento_AGOSTO_2009_hash.txt
+md5sum monitoramento_FEVEREIRO_2009.dmp >> monitoramento_FEVEREIRO_2009_hash.txt
+md5sum monitoramento_JANEIRO_2009.dmp >> monitoramento_JANEIRO_2009_hash.txt
+md5sum monitoramento_JULHO_2009.dmp >> monitoramento_JULHO_2009_hash.txt
+md5sum monitoramento_JUNHO_2009.dmp >> monitoramento_JUNHO_2009_hash.txt
+md5sum monitoramento_MAIO_2009.dmp >> monitoramento_MAIO_2009_hash.txt
+md5sum monitoramento_MARCO_2009.dmp >> monitoramento_MARCO_2009_hash.txt
+md5sum monitoramento_NOVEMBRO_2009.dmp >> monitoramento_NOVEMBRO_2009_hash.txt
+md5sum monitoramento_OUTUBRO_2009.dmp >> monitoramento_OUTUBRO_2009_hash.txt
+md5sum monitoramento_SETEMBRO_2009.dmp >> monitoramento_SETEMBRO_2009_hash.txt
+cat monitoramento_*_2009_hash.txt >> md5sum_hash_monitoramento_2009.txt
+gzip -9 monitoramento_ABRIL_2009.dmp
+gzip -9 monitoramento_AGOSTO_2009.dmp
+gzip -9 monitoramento_FEVEREIRO_2009.dmp
+gzip -9 monitoramento_JANEIRO_2009.dmp
+gzip -9 monitoramento_JULHO_2009.dmp
+gzip -9 monitoramento_JUNHO_2009.dmp
+gzip -9 monitoramento_MAIO_2009.dmp
+gzip -9 monitoramento_MARCO_2009.dmp
+gzip -9 monitoramento_NOVEMBRO_2009.dmp
+gzip -9 monitoramento_OUTUBRO_2009.dmp
+gzip -9 monitoramento_SETEMBRO_2009.dmp
+md5sum monitoramento_ABRIL_2009.dmp.gz >> monitoramento_ABRIL_2009_hash_gz.txt
+md5sum monitoramento_AGOSTO_2009.dmp.gz >> monitoramento_AGOSTO_2009_hash_gz.txt
+md5sum monitoramento_FEVEREIRO_2009.dmp.gz >> monitoramento_FEVEREIRO_2009_hash_gz.txt
+md5sum monitoramento_JANEIRO_2009.dmp.gz >> monitoramento_JANEIRO_2009_hash_gz.txt
+md5sum monitoramento_JULHO_2009.dmp.gz >> monitoramento_JULHO_2009_hash_gz.txt
+md5sum monitoramento_JUNHO_2009.dmp.gz >> monitoramento_JUNHO_2009_hash_gz.txt
+md5sum monitoramento_MAIO_2009.dmp.gz >> monitoramento_MAIO_2009_hash_gz.txt
+md5sum monitoramento_MARCO_2009.dmp.gz >> monitoramento_MARCO_2009_hash_gz.txt
+md5sum monitoramento_NOVEMBRO_2009.dmp.gz >> monitoramento_NOVEMBRO_2009_hash_gz.txt
+md5sum monitoramento_OUTUBRO_2009.dmp.gz >> monitoramento_OUTUBRO_2009_hash_gz.txt
+md5sum monitoramento_SETEMBRO_2009.dmp.gz >> monitoramento_SETEMBRO_2009_hash_gz.txt

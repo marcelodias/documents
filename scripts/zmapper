@@ -1,0 +1,11 @@
+#!/bin/sh
+mount -t cifs //192.168.138.1/instalacoes /mnt/DC/Instalacoes/ -o username=dias,domain=intranet,password=curethe7,iocharset=utf8,users,file_mode=0777,dir_mode=0777
+mount -t cifs //192.168.138.1/usuarios /mnt/DC/Usuarios/ -o username=dias,domain=intranet,password=curethe7,iocharset=utf8,users,file_mode=0777,dir_mode=0777
+mount -t cifs //192.168.138.1/compartilhado /mnt/DC/Compartilhado/ -o username=dias,domain=intranet,password=curethe7,iocharset=utf8,users,file_mode=0777,dir_mode=0777
+mount -t cifs //192.168.138.1/manuais /mnt/DC/Manuais/ -o username=dias,domain=intranet,password=curethe7,iocharset=utf8,users,file_mode=0777,dir_mode=0777
+mount -t cifs //192.168.138.1/sistemas /mnt/DC/Sistemas/ -o username=dias,domain=intranet,password=curethe7,iocharset=utf8,users,file_mode=0777,dir_mode=0777
+mount -t cifs //192.168.138.1/dados /mnt/DC/Dados/ -o username=dias,domain=intranet,password=curethe7,iocharset=utf8,users,file_mode=0777,dir_mode=0777
+mount -t cifs //192.168.138.1/temp /mnt/DC/Temp/ -o username=dias,domain=intranet,password=curethe7,iocharset=utf8,users,file_mode=0777,dir_mode=0777
+#mount -t cifs //192.168.138.57/videos /mnt/DC/Videos -o username=dias,domain=intranet,password=curethe7,iocharset=utf8,users,file_mode=0777,dir_mode=0777
+#mount -t cifs //192.168.138.13/gravacoes_pinaculo /mnt/DC/Gravacoes_Pinaculo -o username=administrador,domain=intranet,password=ntfspasstor00t,iocharset=utf8,users,file_mode=0777,dir_mode=0777
+

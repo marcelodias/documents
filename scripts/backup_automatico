@@ -1,0 +1,19 @@
+#!/bin/bash
+
+INICIO=`date +%d/%m/%Y-%H:%M:%S`
+LOG=/a/01CC723CA608A390/Logs`date +%Y-%m-%d`_log_backup_home_mdias.txt
+
+echo " " >> $LOG
+echo " " >> $LOG
+echo "|-----------------------------------------------" >> $LOG
+echo " Sincronização iniciada em $INICIO" >> $LOG
+
+
+sudo rsync -Cravzp /home/mdias/ /media/01CC723CA608A390/ >> $LOG
+FINAL=`date +%d/%m/%Y-%H:%M:%S`
+
+
+echo " Sincronização Finalizada em $FINAL" >> $LOG
+echo "|-----------------------------------------------" >> $LOG
+echo " " >> $LOG
+echo " " >> $LOG

@@ -1,0 +1,2 @@
+#!/bin/sh
+mount -t cifs //192.168.138.1/temp /mnt/DC/Temp/ -o username=usuario,domain=intranet,password=senha,iocharset=utf8,users,file_mode=0777,dir_mode=0777

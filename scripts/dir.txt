@@ -1,0 +1,331 @@
+G:\
+cd Taris\
+cd CALLCENTER1-RAMAL3380
+mkdir Janeiro Fevereiro Marco Abril Maio Junho Julho Agosto Setembro Outubro Novembro Dezembro
+move *_2012.01.* Janeiro
+move *_2012.02.* Fevereiro
+move *_2012.03.* Marco
+move *_2012.04.* Abril
+move *_2012.05.* Maio
+move *_2012.06.* Junho
+move *_2012.07.* Julho
+move *_2012.08.* Agosto
+move *_2012.09.* Setembro
+move *_2012.10.* Outubro
+move *_2012.11.* Novembro
+move *_2012.12.* Dezembro
+cd ..
+cd CALLCENTER2-RAMAL3381
+mkdir Janeiro Fevereiro Marco Abril Maio Junho Julho Agosto Setembro Outubro Novembro Dezembro
+move *_2012.01.* Janeiro
+move *_2012.02.* Fevereiro
+move *_2012.03.* Marco
+move *_2012.04.* Abril
+move *_2012.05.* Maio
+move *_2012.06.* Junho
+move *_2012.07.* Julho
+move *_2012.08.* Agosto
+move *_2012.09.* Setembro
+move *_2012.10.* Outubro
+move *_2012.11.* Novembro
+move *_2012.12.* Dezembro
+cd ..
+cd CALLCENTER3-RAMAL3382
+mkdir Janeiro Fevereiro Marco Abril Maio Junho Julho Agosto Setembro Outubro Novembro Dezembro
+move *_2012.01.* Janeiro
+move *_2012.02.* Fevereiro
+move *_2012.03.* Marco
+move *_2012.04.* Abril
+move *_2012.05.* Maio
+move *_2012.06.* Junho
+move *_2012.07.* Julho
+move *_2012.08.* Agosto
+move *_2012.09.* Setembro
+move *_2012.10.* Outubro
+move *_2012.11.* Novembro
+move *_2012.12.* Dezembro
+cd ..
+cd CALLCENTER4-RAMAL3383
+mkdir Janeiro Fevereiro Marco Abril Maio Junho Julho Agosto Setembro Outubro Novembro Dezembro
+move *_2012.01.* Janeiro
+move *_2012.02.* Fevereiro
+move *_2012.03.* Marco
+move *_2012.04.* Abril
+move *_2012.05.* Maio
+move *_2012.06.* Junho
+move *_2012.07.* Julho
+move *_2012.08.* Agosto
+move *_2012.09.* Setembro
+move *_2012.10.* Outubro
+move *_2012.11.* Novembro
+move *_2012.12.* Dezembro
+cd ..
+cd CALLCENTER5-RAMAL3384
+mkdir Janeiro Fevereiro Marco Abril Maio Junho Julho Agosto Setembro Outubro Novembro Dezembro
+move *_2012.01.* Janeiro
+move *_2012.02.* Fevereiro
+move *_2012.03.* Marco
+move *_2012.04.* Abril
+move *_2012.05.* Maio
+move *_2012.06.* Junho
+move *_2012.07.* Julho
+move *_2012.08.* Agosto
+move *_2012.09.* Setembro
+move *_2012.10.* Outubro
+move *_2012.11.* Novembro
+move *_2012.12.* Dezembro
+cd ..
+cd CALLCENTER6-RAMAL3385
+mkdir Janeiro Fevereiro Marco Abril Maio Junho Julho Agosto Setembro Outubro Novembro Dezembro
+move *_2012.01.* Janeiro
+move *_2012.02.* Fevereiro
+move *_2012.03.* Marco
+move *_2012.04.* Abril
+move *_2012.05.* Maio
+move *_2012.06.* Junho
+move *_2012.07.* Julho
+move *_2012.08.* Agosto
+move *_2012.09.* Setembro
+move *_2012.10.* Outubro
+move *_2012.11.* Novembro
+move *_2012.12.* Dezembro
+cd ..
+cd CALLCENTER7-RAMAL3386
+mkdir Janeiro Fevereiro Marco Abril Maio Junho Julho Agosto Setembro Outubro Novembro Dezembro
+move *_2012.01.* Janeiro
+move *_2012.02.* Fevereiro
+move *_2012.03.* Marco
+move *_2012.04.* Abril
+move *_2012.05.* Maio
+move *_2012.06.* Junho
+move *_2012.07.* Julho
+move *_2012.08.* Agosto
+move *_2012.09.* Setembro
+move *_2012.10.* Outubro
+move *_2012.11.* Novembro
+move *_2012.12.* Dezembro
+cd ..
+cd CALLCENTER8-RAMAL3387
+mkdir Janeiro Fevereiro Marco Abril Maio Junho Julho Agosto Setembro Outubro Novembro Dezembro
+move *_2012.01.* Janeiro
+move *_2012.02.* Fevereiro
+move *_2012.03.* Marco
+move *_2012.04.* Abril
+move *_2012.05.* Maio
+move *_2012.06.* Junho
+move *_2012.07.* Julho
+move *_2012.08.* Agosto
+move *_2012.09.* Setembro
+move *_2012.10.* Outubro
+move *_2012.11.* Novembro
+move *_2012.12.* Dezembro
+cd ..
+cd CALLCENTER9-RAMAL3388
+mkdir Janeiro Fevereiro Marco Abril Maio Junho Julho Agosto Setembro Outubro Novembro Dezembro
+move *_2012.01.* Janeiro
+move *_2012.02.* Fevereiro
+move *_2012.03.* Marco
+move *_2012.04.* Abril
+move *_2012.05.* Maio
+move *_2012.06.* Junho
+move *_2012.07.* Julho
+move *_2012.08.* Agosto
+move *_2012.09.* Setembro
+move *_2012.10.* Outubro
+move *_2012.11.* Novembro
+move *_2012.12.* Dezembro
+cd ..
+cd CALLCENTER10-RAMAL3389
+mkdir Janeiro Fevereiro Marco Abril Maio Junho Julho Agosto Setembro Outubro Novembro Dezembro
+move *_2012.01.* Janeiro
+move *_2012.02.* Fevereiro
+move *_2012.03.* Marco
+move *_2012.04.* Abril
+move *_2012.05.* Maio
+move *_2012.06.* Junho
+move *_2012.07.* Julho
+move *_2012.08.* Agosto
+move *_2012.09.* Setembro
+move *_2012.10.* Outubro
+move *_2012.11.* Novembro
+move *_2012.12.* Dezembro
+cd ..
+cd CALLCENTER11-RAMAL3390
+mkdir Janeiro Fevereiro Marco Abril Maio Junho Julho Agosto Setembro Outubro Novembro Dezembro
+move *_2012.01.* Janeiro
+move *_2012.02.* Fevereiro
+move *_2012.03.* Marco
+move *_2012.04.* Abril
+move *_2012.05.* Maio
+move *_2012.06.* Junho
+move *_2012.07.* Julho
+move *_2012.08.* Agosto
+move *_2012.09.* Setembro
+move *_2012.10.* Outubro
+move *_2012.11.* Novembro
+move *_2012.12.* Dezembro
+cd ..
+cd CALLCENTER12-RAMAL3391
+mkdir Janeiro Fevereiro Marco Abril Maio Junho Julho Agosto Setembro Outubro Novembro Dezembro
+move *_2012.01.* Janeiro
+move *_2012.02.* Fevereiro
+move *_2012.03.* Marco
+move *_2012.04.* Abril
+move *_2012.05.* Maio
+move *_2012.06.* Junho
+move *_2012.07.* Julho
+move *_2012.08.* Agosto
+move *_2012.09.* Setembro
+move *_2012.10.* Outubro
+move *_2012.11.* Novembro
+move *_2012.12.* Dezembro
+cd ..
+cd CALLCENTER13-RAMAL3392
+mkdir Janeiro Fevereiro Marco Abril Maio Junho Julho Agosto Setembro Outubro Novembro Dezembro
+move *_2012.01.* Janeiro
+move *_2012.02.* Fevereiro
+move *_2012.03.* Marco
+move *_2012.04.* Abril
+move *_2012.05.* Maio
+move *_2012.06.* Junho
+move *_2012.07.* Julho
+move *_2012.08.* Agosto
+move *_2012.09.* Setembro
+move *_2012.10.* Outubro
+move *_2012.11.* Novembro
+move *_2012.12.* Dezembro
+cd ..
+cd CALLCENTER14-RAMAL3393
+mkdir Janeiro Fevereiro Marco Abril Maio Junho Julho Agosto Setembro Outubro Novembro Dezembro
+move *_2012.01.* Janeiro
+move *_2012.02.* Fevereiro
+move *_2012.03.* Marco
+move *_2012.04.* Abril
+move *_2012.05.* Maio
+move *_2012.06.* Junho
+move *_2012.07.* Julho
+move *_2012.08.* Agosto
+move *_2012.09.* Setembro
+move *_2012.10.* Outubro
+move *_2012.11.* Novembro
+move *_2012.12.* Dezembro
+cd ..
+cd CALLCENTER15-RAMAL3395
+mkdir Janeiro Fevereiro Marco Abril Maio Junho Julho Agosto Setembro Outubro Novembro Dezembro
+move *_2012.01.* Janeiro
+move *_2012.02.* Fevereiro
+move *_2012.03.* Marco
+move *_2012.04.* Abril
+move *_2012.05.* Maio
+move *_2012.06.* Junho
+move *_2012.07.* Julho
+move *_2012.08.* Agosto
+move *_2012.09.* Setembro
+move *_2012.10.* Outubro
+move *_2012.11.* Novembro
+move *_2012.12.* Dezembro
+cd ..
+cd CDB1-RAMAL3350
+mkdir Janeiro Fevereiro Marco Abril Maio Junho Julho Agosto Setembro Outubro Novembro Dezembro
+move *_2012.01.* Janeiro
+move *_2012.02.* Fevereiro
+move *_2012.03.* Marco
+move *_2012.04.* Abril
+move *_2012.05.* Maio
+move *_2012.06.* Junho
+move *_2012.07.* Julho
+move *_2012.08.* Agosto
+move *_2012.09.* Setembro
+move *_2012.10.* Outubro
+move *_2012.11.* Novembro
+move *_2012.12.* Dezembro
+cd ..
+cd CDB2-RAMAL3351
+mkdir Janeiro Fevereiro Marco Abril Maio Junho Julho Agosto Setembro Outubro Novembro Dezembro
+move *_2012.01.* Janeiro
+move *_2012.02.* Fevereiro
+move *_2012.03.* Marco
+move *_2012.04.* Abril
+move *_2012.05.* Maio
+move *_2012.06.* Junho
+move *_2012.07.* Julho
+move *_2012.08.* Agosto
+move *_2012.09.* Setembro
+move *_2012.10.* Outubro
+move *_2012.11.* Novembro
+move *_2012.12.* Dezembro
+cd ..
+cd CDB3-RAMAL3352
+mkdir Janeiro Fevereiro Marco Abril Maio Junho Julho Agosto Setembro Outubro Novembro Dezembro
+move *_2012.01.* Janeiro
+move *_2012.02.* Fevereiro
+move *_2012.03.* Marco
+move *_2012.04.* Abril
+move *_2012.05.* Maio
+move *_2012.06.* Junho
+move *_2012.07.* Julho
+move *_2012.08.* Agosto
+move *_2012.09.* Setembro
+move *_2012.10.* Outubro
+move *_2012.11.* Novembro
+move *_2012.12.* Dezembro
+cd ..
+cd CDB4-RAMAL3353
+mkdir Janeiro Fevereiro Marco Abril Maio Junho Julho Agosto Setembro Outubro Novembro Dezembro
+move *_2012.01.* Janeiro
+move *_2012.02.* Fevereiro
+move *_2012.03.* Marco
+move *_2012.04.* Abril
+move *_2012.05.* Maio
+move *_2012.06.* Junho
+move *_2012.07.* Julho
+move *_2012.08.* Agosto
+move *_2012.09.* Setembro
+move *_2012.10.* Outubro
+move *_2012.11.* Novembro
+move *_2012.12.* Dezembro
+cd ..
+cd CDB5-RAMAL3354
+mkdir Janeiro Fevereiro Marco Abril Maio Junho Julho Agosto Setembro Outubro Novembro Dezembro
+move *_2012.01.* Janeiro
+move *_2012.02.* Fevereiro
+move *_2012.03.* Marco
+move *_2012.04.* Abril
+move *_2012.05.* Maio
+move *_2012.06.* Junho
+move *_2012.07.* Julho
+move *_2012.08.* Agosto
+move *_2012.09.* Setembro
+move *_2012.10.* Outubro
+move *_2012.11.* Novembro
+move *_2012.12.* Dezembro
+cd ..
+cd CDB6-RAMAL3355
+mkdir Janeiro Fevereiro Marco Abril Maio Junho Julho Agosto Setembro Outubro Novembro Dezembro
+move *_2012.01.* Janeiro
+move *_2012.02.* Fevereiro
+move *_2012.03.* Marco
+move *_2012.04.* Abril
+move *_2012.05.* Maio
+move *_2012.06.* Junho
+move *_2012.07.* Julho
+move *_2012.08.* Agosto
+move *_2012.09.* Setembro
+move *_2012.10.* Outubro
+move *_2012.11.* Novembro
+move *_2012.12.* Dezembro
+cd ..
+cd CDB7-RAMAL3357
+mkdir Janeiro Fevereiro Marco Abril Maio Junho Julho Agosto Setembro Outubro Novembro Dezembro
+move *_2012.01.* Janeiro
+move *_2012.02.* Fevereiro
+move *_2012.03.* Marco
+move *_2012.04.* Abril
+move *_2012.05.* Maio
+move *_2012.06.* Junho
+move *_2012.07.* Julho
+move *_2012.08.* Agosto
+move *_2012.09.* Setembro
+move *_2012.10.* Outubro
+move *_2012.11.* Novembro
+move *_2012.12.* Dezembro

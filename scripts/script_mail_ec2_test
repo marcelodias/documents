@@ -1,0 +1,8 @@
+#!/bin/bash
+
+DATE=`date +%d-%m-%Y`
+
+tar -cvjf testearquivo_$DATE.tar.gz /home/mdias/testearquivo
+touch /home/mdias/testearquivo
+chmod 660 /home/mdias/testearquivo
+

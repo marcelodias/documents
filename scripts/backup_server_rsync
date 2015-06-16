@@ -1,0 +1,28 @@
+* 23 1-7 * 5  root /home/backup/backup_webserver_1.sh > /dev/null
+* 23 8-14 * 5  root /home/backup/backup_webserver_2.sh > /dev/null
+* 23 15-21 * 5  root /home/backup/backup_webserver_3.sh > /dev/null
+* 23 22-28 * 5  root /home/backup/backup_webserver_4.sh > /dev/null
+* 23 30 * 5  root /home/backup/backup_webserver_mensal.sh > /dev/null
+
+
+#!/bin/bash
+
+INICIO=`date +%d/%m/%Y-%H:%M:%S`
+LOG=/var/log/backup`date +%Y-%m-%d`_log_backup_webserver_1.txt
+
+echo " " >> $LOG
+echo " " >> $LOG
+echo "|-----------------------------------------------" >> $LOG
+echo " Sincronização iniciada em $INICIO" >$LOG
+
+rsync -Crvpl --backup --delete /home /backup_oficial/ATLANTIS/webserver/backup_1 >> $LOG
+FINAL=`date +%d/%m/%Y-%H:%M:%S`
+
+echo " Sincronização Finalizada em $FINAL"  $LOG
+echo "|-----------------------------------------------" >> $LOG
+echo " " >> $LOG
+echo " " >> $LOG
+
+
+mount -t cifs //192.168.138.21/Backups /backup_oficial -o username=backup.rede,passwrd=WebC1el0,iocharset=utf8,root,file_mode=rwx,dir_mode=rwx
+

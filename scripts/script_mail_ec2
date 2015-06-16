@@ -1,0 +1,6 @@
+#!/bin/bash
+
+DATE=`date +%d-%m-%Y`
+tar -cvjf /var/spool/mail/ec2-user_$DATE /var/spool/mail/ec2-user
+touch /var/spool/mail/ec2-user
+chmod 660 /var/spool/mail/ec2-user

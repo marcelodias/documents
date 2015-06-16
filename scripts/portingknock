@@ -1,0 +1,13 @@
+export PATH="/bin:/sbin:/usr/bin:/usr/sbin"
+
+PORTS="24517:udp 4473:udp 4500:udp 5656:tcp 24431:udp 5446:tcp 4478:udp 24611:udp"
+USER="mdias"
+SERVER="vpn.magnetworks.com.br"
+
+for port in $PORTS;
+     do
+         knock -v $SERVER $port
+        sleep 1
+     done
+
+ssh $USER@$SERVER

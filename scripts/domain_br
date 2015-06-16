@@ -1,0 +1,43 @@
+#!/bin/sh
+#------------------------------------------------#
+# Script do Nagios Domain BR das pastas da Cielo #
+#               Marcelo Trindade Dias            #
+#                  versao v. 0.1                 #
+#------------------------------------------------#
+# digitar o nome do dominio
+echo "DOMINIO"
+read DOMINIO
+
+# Buscando data
+ANO="`date +%Y`"
+MES="`date +%m`"
+DIA="`date +%d`"
+
+# Data de expiração do whois BR
+WHOISA=`whois $DOMINIO | grep expires | cut -c14-17`
+WHOISM=`whois $DOMINIO | grep expires | cut -c18-19`
+WHOISD=`whois $DOMINIO | grep expires | cut -c20-21`
+
+# Definindo Meses
+TDMES=`echo $(cal $MES $ANO) | awk '{print $NF}'`
+        echo "$TDMES"
+TOTALMESES="12"
+
+# Calculo de data
+#ANOC=$(($WHOISA-$ANO))
+ANOC="2"
+        echo "$ANOC"
+MESC=$(($WHOISM-$MES))
+        echo "$MESC"
+DIAC=$(($DIA-$WHOISD))
+        echo "$DIAC"
+
+if [ $ANOC != 0 ]; then
+        RESTOM=$(($TOTALMESES-$WHOISM))
+        exit 1
+        if [ ! $ANOC == 0 ]; then
+                echo "IGUAIS"
+                exit 1
+        fi
+fi
+

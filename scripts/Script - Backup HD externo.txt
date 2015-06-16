@@ -1,0 +1,5 @@
+script backup HD Externo
+
+#!/bin/bash
+
+df /mnt/hdexterno &> /dev/null && rsync -va --delete --log-file=/mnt/hdexterno/rsync.log /mnt/disco470/LC /mnt/hdexterno
