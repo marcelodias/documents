@@ -1,0 +1,43 @@
+Aprendendo python
+
+Utilização de texto (string) sempre deve usar aspas duas ""
+Variável devem ser definidas no inicio do script
+Virgula de valores são "." que serão float, sem "." é inteiro, o resto é string
+Para imprimir valor escrito
+print("Ola mundo")
+
+1- Identação no IDLE
+if True:
+
+2- Executar duas instruções na mesma linha
+print("oi"); print("tchau");
+
+3- Comentario
+# Teste de comentário
+
+4- Bloco de comentario
+""" 
+Teste Bloco de comentario
+Linha vazia
+Linha cheia
+"""
+
+5- Variáveis
+
+a = 10 -> variavel "a" está alocada em memória
+b = 25 -> Variável "b" agora é 25
+a + b -> será valor 35, é a soma da variável "a" com "b"
+texto = "todo texto é uma string"
+
+6- Na codificação do script deve-se usar:
+print( texto ) #Resultado será:
+'todo texto é uma string'
+
+
+7- Identificando o tipo da varável
+type ( texto ) #Resutado será:
+<class 'str'>
+type ( a )
+<class 'int'>
+
+8- 
